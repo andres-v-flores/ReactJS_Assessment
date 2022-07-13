@@ -1,0 +1,26 @@
+
+.contact-table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+}
+.contact-table td {
+    text-align: center;
+}
+.first{
+    padding: 0 0.6rem;
+}
+thead{
+    background-color: #4fc197;
+    color: #ffffff;
+}
+tr{
+    height: 3.3rem;
+}
+tbody tr{
+    background-color: #ffffff;
+}
+tbody tr:nth-child(even) {background-color: #e6eded;}
+tbody tr:hover{
+    background-color: #a2e5e9;
+}
